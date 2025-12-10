@@ -4,4 +4,6 @@ This repository contains all the data and notebooks used in our final CSC 396 pr
 ## Instructions
 First, execute 01_preprocessing.ipynb to convert the cases.json into the clean and raw datasets described in the report. This will also produce some graphs on statistics about the dataset.
 
-Next, execute any of the notebooks numbered 02-04. Each of these is largely the same, just using the different datasets. 02 runs the model training and error plotting for the clean and unbalanced dataset. 03 runs the same for the raw dataset, and 04 runs the same for the clean and balanced dataset. Some useful plots from each of these ntoebooks will be stored in results.
+Next, execute any of the notebooks numbered 02-04. Each of these is largely the same, just using the different datasets. 02 runs the model training and error plotting for the clean and unbalanced dataset. 03 runs the same for the raw dataset, and 04 runs the same for the clean and balanced dataset. 
+
+Some useful plots from each of these notebooks will be stored in results.
