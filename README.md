@@ -14,7 +14,7 @@ If you want to build the cases.json from the raw data files, follow the instruct
 1. Download the release from walkerdb dataset [here](https://github.com/walkerdb/supreme_court_transcripts/releases) and the justice.csv from the Kaggle dataset [here](https://www.kaggle.com/datasets/deepcontractor/supreme-court-judgment-prediction).
 2. Unzip the walkerdb archive and navigate to supreme_court_transcripts/oyez/.
 3. Copy the cases folder to the data directory.
-    1. You may want to remove all cases with years older than 1970, since our Kaggle dataset only covers that far back.
+    1. You want to remove all cases with years older than 1970, since we limited our analysis to that range. Clear Oyez reporting of years only activates around 1955, so that is the lowest you should go for the matching code to work.
 5. Place the justice.csv in the data directory.
 6. Run collect_data.py to create a new cases.json file.
 
