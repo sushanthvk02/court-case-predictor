@@ -14,8 +14,9 @@ If you want to build the cases.json from the raw data files, follow the instruct
 1. Download the release from walkerdb dataset [here](https://github.com/walkerdb/supreme_court_transcripts/releases) and the justice.csv from the Kaggle dataset [here](https://www.kaggle.com/datasets/deepcontractor/supreme-court-judgment-prediction).
 2. Unzip the walkerdb archive and navigate to supreme_court_transcripts/oyez/.
 3. Copy the cases folder to the data directory.
-4. Place the justice.csv in the data directory.
-5. Run collect_data.py to create a new cases.json file.
+    1. You may want to remove all cases with years older than 1970, since our Kaggle dataset only covers that far back.
+5. Place the justice.csv in the data directory.
+6. Run collect_data.py to create a new cases.json file.
 
 ## File Descriptions (somewhat redundant with report)
 
