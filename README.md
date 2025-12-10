@@ -8,6 +8,13 @@ Next, execute any of the notebooks numbered 02-04. Each of these is largely the 
 
 Some useful plots from each of these notebooks will be stored in results.
 
+If you want to build the cases.json from the raw data files, follow the instructions in the following section.
+
+## Build Cases.json from Datasets
+1. Download the cases.zip from walkerdb dataset [here](https://github.com/walkerdb/supreme_court_transcripts/releases) and the justice.csv from the Kaggle dataset [here](https://www.kaggle.com/datasets/deepcontractor/supreme-court-judgment-prediction).
+2. Place the unzipped files in the data directory.
+3. Run collect_data.py to create a new cases.json file.
+
 ## File Descriptions (somewhat redundant with report)
 
 01_preprocessing.ipynb - This file loads in the case information json, and creates two versions of the data, one without possible leakage words, and one with possible leakage words. It then processes the facts and the transcripts into a single block of text, and the decision/winner into a binary label. It then saves the two versions of the dataset.
